@@ -44,19 +44,22 @@ R — `forecast`, `fpp2`, `tseries`, `xts`, `zoo`, `TTR`, `imputeTS`, `dplyr`,
 **Decomposition** — a clear upward trend with a sharp dip at the March 2020
 structural break, and a mild annual seasonal component:
 
-![decomposition](msft-time-series-repo/output/decomposition.png)
+<img width="1400" height="1260" alt="decomposition" src="https://github.com/user-attachments/assets/e8c324f2-a6fe-4fb6-9f53-a875e711832a" />
+
 
 **Stationarity** — the level series shows the slow-decaying ACF typical of a
 non-stationary process; first differencing removes most of the
 autocorrelation, though not all of it:
 
-![ACF before and after differencing](output/acf_stationarity.png)
+<img width="1540" height="560" alt="acf_stationarity" src="https://github.com/user-attachments/assets/17283635-68a2-42d3-a7be-8df4d8a765ab" />
+
 
 **Benchmark forecasts** — on a 30-day holdout, Naive clearly outperforms Mean
 and Seasonal Naive, consistent with the series behaving close to a random
 walk:
 
-![Forecast benchmark comparison](output/forecast_benchmarks.png)
+<img width="1400" height="700" alt="forecast_benchmarks" src="https://github.com/user-attachments/assets/2cdf8a52-aa33-4a6c-af6e-0f20f1068c49" />
+
 
 **SARIMA — daily vs. monthly**
 
