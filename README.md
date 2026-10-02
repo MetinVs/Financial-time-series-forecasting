@@ -44,7 +44,7 @@ R — `forecast`, `fpp2`, `tseries`, `xts`, `zoo`, `TTR`, `imputeTS`, `dplyr`,
 **Decomposition** — a clear upward trend with a sharp dip at the March 2020
 structural break, and a mild annual seasonal component:
 
-![decomposition](output/decomposition.png)
+![decomposition](msft-time-series-repo/output/decomposition.png)
 
 **Stationarity** — the level series shows the slow-decaying ACF typical of a
 non-stationary process; first differencing removes most of the
